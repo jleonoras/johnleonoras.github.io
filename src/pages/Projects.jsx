@@ -3,7 +3,7 @@ import ProjectsItem from "../components/ProjectsItem";
 
 const Projects = () => {
   return (
-    <div id="projects" className="pt-20">
+    <div id="projects" className="bg-slate-100">
       <div className="w-full h-screen">
         <ProjectsItem />
       </div>

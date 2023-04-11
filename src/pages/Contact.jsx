@@ -3,7 +3,7 @@ import ContactItem from "../components/ContactItem";
 
 const Contact = () => {
   return (
-    <div id="contact" className="pt-20">
+    <div id="contact" className="bg-slate-100">
       <div className="w-full h-screen">
         <ContactItem />
       </div>

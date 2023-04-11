@@ -3,11 +3,13 @@ import HomeItem from "../components/HomeItem";
 
 const Home = () => {
   return (
-    <div id="home" className="pt-20">
-      <div className="w-full h-screen">
-        <HomeItem />
+    <>
+      <div id="home" className="pt-[60px] bg-slate-100">
+        <div className="w-full h-screen">
+          <HomeItem />
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

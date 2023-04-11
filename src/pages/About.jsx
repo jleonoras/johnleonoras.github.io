@@ -3,11 +3,13 @@ import AboutItem from "../components/AboutItem";
 
 const About = () => {
   return (
-    <div id="about" className="pt-20">
-      <div className="w-full h-screen">
-        <AboutItem />
+    <>
+      <div id="about" className="bg-slate-100">
+        <div className="w-full h-screen">
+          <AboutItem />
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

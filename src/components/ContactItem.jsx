@@ -2,9 +2,13 @@ import React from "react";
 
 const ContactItem = () => {
   return (
-    <div>
-      <h1>This is the Contact items.</h1>
-    </div>
+    <>
+      <div className="w-full h-screen absolute">
+        <div className="w-full h-full flex flex-col justify-center items-center">
+          <h1>Contact</h1>
+        </div>
+      </div>
+    </>
   );
 };
 
