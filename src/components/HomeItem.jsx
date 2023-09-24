@@ -1,11 +1,11 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import {
-  FaTwitter,
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-} from "react-icons/fa";
+  FaSquareGithub,
+  FaSquareFacebook,
+  FaLinkedin,
+  FaSquareXTwitter,
+} from "react-icons/fa6";
 
 const HomeItem = () => {
   return (
@@ -35,10 +35,22 @@ const HomeItem = () => {
             />
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <FaTwitter className="cursor-pointer" size={20} />
-            <FaFacebookF className="cursor-pointer" size={20} />
-            <FaInstagram className="cursor-pointer" size={20} />
-            <FaLinkedinIn className="cursor-pointer" size={20} />
+            <FaSquareXTwitter
+              className="cursor-pointer"
+              size={20}
+              color="#000000"
+            />
+            <FaSquareFacebook
+              className="cursor-pointer"
+              size={20}
+              color="#4267B2"
+            />
+            <FaSquareGithub
+              className="cursor-pointer"
+              size={20}
+              color="#171515"
+            />
+            <FaLinkedin className="cursor-pointer" size={20} color="#0A66C2" />
           </div>
         </div>
       </div>
