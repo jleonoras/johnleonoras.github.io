@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="fixed w-full h-screen bg-white/100 flex flex-col justify-center items-center md:hidden z-20">
           <a
             onClick={handleNav}
-            href="#home"
+            href="#"
             className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-2 cursor-pointer hover:scale-110 ease-in duration-200 text-gray-800 font-medium"
           >
             <AiOutlineHome size={20} />
@@ -73,7 +73,7 @@ const Navbar = () => {
       <div className="fixed w-full h-[60px] flex-row justify-around items-center hidden md:flex top-0 z-30 bg-slate-100">
         <div>
           <a
-            href="#home"
+            href="#"
             className="font-semibold text-gray-800 flex flex-row items-center m-1 p-1 rounded-lg hover:scale-105 ease-in duration-200"
           >
             <span>
